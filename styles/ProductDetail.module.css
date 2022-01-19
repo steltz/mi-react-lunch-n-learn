@@ -1,0 +1,54 @@
+.navBarContainer {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.productDescriptionContainer {
+    padding: 16px 24px;
+}
+
+.productNameContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.productName {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.productDescription {
+    font-size: 12px;
+}
+
+.productImage {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.productColorPicker {
+    border: none;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+
+}
+
+.colorPickerInputGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.orderBtnContainer {
+    display: flex;
+    justify-content: center;
+}
