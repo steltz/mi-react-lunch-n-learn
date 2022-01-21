@@ -1,8 +1,10 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import { Product } from '../data/Product';
 
 export default function Home() {
+  console.log(Product);
   return (
     <div className={styles.container}>
       <Head>
